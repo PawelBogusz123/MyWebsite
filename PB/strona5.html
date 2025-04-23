@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nie.css">
+    
+</head>
+<body style="background-color: rgb(209, 219, 228);">
+    <div class="container">
+        <header>
+            Kontakt ze mną
+
+        </header>
+        <nav></nav>
+        <main>
+            <nav class="ski">
+                <ul>
+                    <li class="ski"><a href="strona1.html">Główna</a></li>
+                    <li class="ski"><a href="strona2.html">O mnie</a></li>
+                    <li class="ski"><a href="https://paderek-knurow.pl/" target="_blank">Strona Szkoły</a></li>
+                    <li class="ski"><a href="strona3.html">Pianino</a></li>
+                    <li class="ski"><a href="strona4.html">Muzyka i Źródła</a></li>
+                </ul>
+            </nav>
+
+            <form>
+                <fieldset style="border: 1cm;">
+                    <label for="name">Twoje imie i nazwisko!!</label> <input type="text" placeholder="Imie+Nazwisko" id="name"><br>
+                    <label for="button">Email</label> <input type="email" placeholder="Twoj Mail!" required id="button"><br>
+                    <label for="numer">Telefon!</label> <input type="tel" placeholder="123 456 789" id="numer"><br>
+                    Czy chcesz też lekcje? podaj dzień, więcej szczegółów wyśle mailem lub telefonem! <br>
+                    <input type="radio" name="wybor"   value="n" id="nie" checked>    <label for="nie">nie</label>
+                    <input type="radio" name="wybor"   value="y" id="tak">            <label for="tak">tak</label> <br>
+                    <label for="Day"></label><select name="day" id="Day">
+                        <option value="Poniedzialek">Poniedzialek</option>
+                        <option value="Wtorek">Wtorek</option>
+                        <option value="Środa">Środa</option>
+                        <option value="Czwartek">Czwartek</option>
+                        <option value="Piątek">Piątek</option>
+                    </select><br>
+                </fieldset>
+                <fieldset>
+                    <button id="btn" value="btn"> Wyslij</button>
+
+                </fieldset>
+
+                
+            </form>
+            
+        </main>
+        <aside>
+            
+            <section class="display"></section>
+
+        </aside>
+        <footer>
+            
+        © By Paweł Bogusz <br>
+        boguszpawel123@gmail.com
+        </footer>
+        
+    </div>
+
+    <script src="tak.js"></script>
+</body>
+</html>
